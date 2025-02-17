@@ -1,6 +1,6 @@
 backend:
   name: Catálogo AsojuanitoP41
-  repo: charliebeat03/Catalogo-de-tatuajes-actualizado/
+  repo: charliebeat03/Catalogo-de-tatuajes-actualizado
   branch: main
 
 media_folder: "assets/img/tatuajes"
