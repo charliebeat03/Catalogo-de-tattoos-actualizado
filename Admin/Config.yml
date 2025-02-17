@@ -1,0 +1,18 @@
+backend:
+  name: Catálogo AsojuanitoP41
+  repo: charliebeat03.github.io/Catalogo-de-tatuajes-actualizado/
+  branch: main
+
+media_folder: "assets/img/tatuajes"
+public_folder: "/assets/img/tatuajes"
+
+collections:
+  - name: "tatuajes"
+    label: "Tatuajes"
+    folder: "_tatuajes"
+    create: true
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Precio", name: "price", widget: "number" }
+      - { label: "Descripción", name: "body", widget: "text" }
+      - { label: "Foto", name: "image", widget: "image" }
