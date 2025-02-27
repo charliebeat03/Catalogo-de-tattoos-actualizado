@@ -11,6 +11,7 @@ collections:
     label: "Tatuajes"
     folder: "_tatuajes"
     create: true
+    delete: true
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Precio", name: "price", widget: "number" }
